@@ -4,7 +4,7 @@ defaults:
 enabled: True
 
 policy_idx: 0  # policy index in a population: should always be specified explicitly! Each run in a population should have a unique idx from [0..N-1]
-num_policies: 8  # total number of policies in the population, the total number of learners. Override through CLI!
+num_policies: 6 #8  # total number of policies in the population, the total number of learners. Override through CLI!
 workspace: "pbt_workspace"  # suffix of the workspace dir name inside train_dir, used to distinguish different PBT runs with the same experiment name. Recommended to specify a unique name
 
 # special mode that enables PBT features for debugging even if only one policy is present. Never enable in actual experiments
